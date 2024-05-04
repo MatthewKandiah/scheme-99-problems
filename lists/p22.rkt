@@ -12,3 +12,5 @@
 (require rackunit)
 
 (check-equal? (range 4 9) '(4 5 6 7 8 9))
+
+(provide range)
